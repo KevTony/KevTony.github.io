@@ -4,8 +4,8 @@
     <head>
         <meta charset=utf-8>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Expertos en reparacion de motores y cambios automaticos. Motores multimarca, cambios-DGS, distribuciones, embragues y mucho mas. C/Morenes Arteaga 18 MADRID"/>
-        <title>Talleres Madrid</title>
+		<meta name="description" content="Taller mecánico en Madrid ⭐ Cambio de aceite 85€ | Kit distribución desde 340€ | Expertos en reparación de motores, cambios automáticos y mantenimiento. ¡Llama ahora! ☎️ 673 624 732"/>
+        <title>Talleres Madrid | Cambio Aceite 85€ | Kit Distribución 340€ | Taller Mecánico</title>
 
 		<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -28,6 +28,261 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
         <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        
+        <style>
+            /* Estilos mejorados para botones CTA */
+            .cta-button {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                padding: 15px 30px;
+                border-radius: 50px;
+                font-size: 16px;
+                font-weight: 600;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                border: none;
+                cursor: pointer;
+            }
+            
+            .cta-phone {
+                background: #2c2c2c;
+                color: white !important;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            }
+            
+            .cta-phone:hover {
+                background: #1a1a1a;
+                transform: translateY(-2px);
+                box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+                color: white !important;
+                text-decoration: none;
+            }
+            
+            .cta-whatsapp {
+                background: #25D366;
+                color: white !important;
+                box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+            }
+            
+            .cta-whatsapp:hover {
+                background: #20BA5A;
+                transform: translateY(-2px);
+                box-shadow: 0 6px 16px rgba(37, 211, 102, 0.6);
+                color: white !important;
+                text-decoration: none;
+            }
+            
+            /* Botones sticky flotantes */
+            .sticky-cta-container {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                z-index: 9999;
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                animation: slideInRight 0.5s ease-out;
+            }
+            
+            @keyframes slideInRight {
+                from {
+                    transform: translateX(400px);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            
+            .sticky-cta-button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                padding: 16px 24px;
+                border-radius: 50px;
+                font-size: 16px;
+                font-weight: 600;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+                min-width: 180px;
+            }
+            
+            .sticky-phone {
+                background: #2c2c2c;
+                color: white !important;
+            }
+            
+            .sticky-phone:hover {
+                background: #1a1a1a;
+                transform: scale(1.05);
+                color: white !important;
+                text-decoration: none;
+            }
+            
+            .sticky-whatsapp {
+                background: #25D366;
+                color: white !important;
+            }
+            
+            .sticky-whatsapp:hover {
+                background: #20BA5A;
+                transform: scale(1.05);
+                color: white !important;
+                text-decoration: none;
+            }
+            
+            .close-sticky {
+                position: absolute;
+                top: -8px;
+                right: -8px;
+                background: #181A1C;
+                color: #FECE1A;
+                border: 2px solid #FECE1A;
+                border-radius: 50%;
+                width: 28px;
+                height: 28px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: bold;
+                transition: all 0.3s ease;
+            }
+            
+            .close-sticky:hover {
+                background: #FECE1A;
+                color: #181A1C;
+                transform: rotate(90deg);
+            }
+            
+            /* Responsive */
+            @media (max-width: 767px) {
+                .sticky-cta-container {
+                    bottom: 10px;
+                    right: 10px;
+                    left: 10px;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                
+                .sticky-cta-button {
+                    flex: 1;
+                    padding: 14px 16px;
+                    font-size: 14px;
+                    min-width: auto;
+                }
+                
+                .sticky-cta-button span {
+                    display: none;
+                }
+                
+                .cta-button {
+                    padding: 12px 20px;
+                    font-size: 14px;
+                    width: 100%;
+                    margin: 5px 0;
+                }
+                
+                .da-slide .cta-button {
+                    width: auto;
+                    min-width: 140px;
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .sticky-cta-button {
+                    padding: 12px 12px;
+                    font-size: 20px;
+                }
+            }
+            
+            /* Mejoras generales de diseño */
+            .button-ps {
+                transition: all 0.3s ease;
+            }
+            
+            .button-ps:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            }
+            
+            /* Mejorar slider */
+            .da-slide h2 {
+                text-shadow: none;
+            }
+            
+            .da-slide h4 {
+                text-shadow: none;
+            }
+            
+            .da-slide p {
+                text-shadow: none;
+            }
+            
+            /* Responsive para price columns */
+            @media (max-width: 767px) {
+                .price-column {
+                    margin-bottom: 30px;
+                }
+                
+                .price-table .span4 {
+                    width: 100%;
+                    margin-left: 0;
+                }
+            }
+            
+            /* Estilos específicos para botones del slider */
+            .slider-cta-btn {
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            }
+            
+            .slider-cta-btn:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+                text-decoration: none !important;
+            }
+            
+            .da-slide > div[style*="position: absolute"] {
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+            
+            @media (max-width: 979px) {
+                .da-slide > div[style*="position: absolute"] {
+                    bottom: 20px !important;
+                    right: 20px !important;
+                }
+            }
+            
+            @media (max-width: 767px) {
+                .da-slide > div[style*="position: absolute"] {
+                    position: static !important;
+                    margin-top: 20px;
+                    justify-content: center;
+                }
+                
+                .slider-cta-btn {
+                    font-size: 13px !important;
+                    padding: 12px 20px !important;
+                    margin: 5px !important;
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .slider-cta-btn {
+                    font-size: 12px !important;
+                    padding: 10px 16px !important;
+                }
+            }
+        </style>
+        
         <!-- Fav and touch icons -->
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
@@ -67,7 +322,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <ul class="nav" id="top-navigation">
                             <li class="active"><a href="#home">INICIO</a></li>
                             <li><a href="#service">SERVICIOS</a></li>
-                            <li><a href="#portfolio">TOP VENTAS</a></li>
+                            <li class="dropdown">
+                                <a href="#portfolio" class="dropdown-toggle" data-toggle="dropdown">MEJORES OFERTAS <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="kit-distribucion-bomba.html">KIT DE DISTRIBUCION + BOMBA DE AGUA</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#about">SOBRE NOSOTROS</a></li>
                             <li><a href="#clients">BLOG</a></li>
                             <li><a href="#price">PRECIOS</a></li>
@@ -89,13 +349,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="container">
                     <!-- Start first slide -->
                     <div class="da-slide">
-                        <h2 class="fittext2">KIT DISTRIBUCION + BOMBA DE AGUA 320€ </h2>
+                        <h2 class="fittext2">KIT DISTRIBUCION + BOMBA DE AGUA 340€ </h2>
 						
                         <h4>Válido para vehículos de hasta 1.900 cc (incluido). <br> Otros pedir presupuesto.</h4>
                         <p>NOTA:PEDIR CITA POR TELEFONO.
 						</p>
-                        <a href="#" class="da-link button">QUIERES SABER MAS</a>
-			    <elevenlabs-convai agent-id="wqJaREeSOhPoJBy9D4fu"></elevenlabs-convai><script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+                        <a href="kit-distribucion-bomba.html" class="da-link button">QUIERES SABER MAS</a>
                         <div class="da-img">
                             <img src="images/Slider01.png" alt="image01" width="320">
                         </div>
@@ -103,12 +362,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <!-- End first slide -->
                     <!-- Start second slide -->
                     <div class="da-slide">
-                        <h2>PROMO <br> CAMBIO DE ACEITE Y FILTRO <h2>
-                        <h4></h4>
-                        <p>El cambio de aceite es una tarea esencial para el mantenimiento de su vehículo, ya que el aceite se encarga de lubricar y proteger las piezas móviles del motor. Además, utilizamos aceites y filtros de alta calidad para garantizar el mejor rendimiento de su vehículo.</p>
-                        <a href="#" class="da-link button">Read more</a>
+                        <h2 class="fittext2">CAMBIO DE ACEITE Y FILTRO - SOLO 85€</h2>
+                        <h4>¡Protege tu motor y ahorra en reparaciones costosas!<br>Incluye revisión general de 30 puntos GRATIS</h4>
+                        <p>Mantén tu motor en perfecto estado con aceite de alta calidad 5W30. Un cambio de aceite a tiempo puede ahorrarte miles de euros en reparaciones. ¡No esperes a que sea tarde!</p>
                         <div class="da-img">
                             <img src="images/Slider02.png" width="320" alt="image02">
+                        </div>
+                        <div style="position: absolute; bottom: 40px; right: 40px; z-index: 100;">
+                            <a href="tel:+34673624732" class="slider-cta-btn" style="background: #2c2c2c; color: white; padding: 14px 28px; font-size: 15px; font-weight: 600; text-decoration: none; border-radius: 50px; display: inline-block; margin: 5px 8px 5px 0; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.5);">📞 LLAMAR</a>
+                            <a href="https://wa.me/34673624732?text=Hola,%20quiero%20información%20sobre%20el%20cambio%20de%20aceite%20y%20filtro%20por%2085€" target="_blank" class="slider-cta-btn" style="background: #25D366; color: white; padding: 14px 28px; font-size: 15px; font-weight: 600; text-decoration: none; border-radius: 50px; display: inline-block; margin: 5px 8px 5px 0; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(37, 211, 102, 0.5);">💬 WhatsApp</a>
                         </div>
                     </div>
                     <!-- End second slide -->
@@ -194,32 +456,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="span4 price-column">
                     <h3>KIT DISTRIBUCION + BOMBA</h3>
                       <ul class="list">
-                          <li class="price">320€</li>
+                          <li class="price">340€</li>
                           <li><strong> Vehiculos hasta</strong>(1900 CC)</li>
                           <li><strong>Consultar</strong> condiciones</li>
                             
                       </ul>
-                      <a href="#" class="button button-ps">MAS INFORMACIÓN</a>
+                      <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; padding: 10px;">
+                          <a href="tel:+34673624732" class="cta-button cta-phone" style="flex: 1; min-width: 120px;">📞 LLAMAR</a>
+                          <a href="https://wa.me/34673624732?text=Hola,%20quiero%20información%20sobre%20el%20kit%20de%20distribución%20+%20bomba%20de%20agua" target="_blank" class="cta-button cta-whatsapp" style="flex: 1; min-width: 120px;">💬 WhatsApp</a>
+                      </div>
                     </div>
                   <div class="span4 price-column">
                     <h3>CAMBIO ACEITE + FILTRO (5W30)</h3>
                       <ul class="list">
                           <li class="price">85€</li>
                           <li><strong>Incluye revisión 30 Puntos</strong></li>
-                          <li><strong>Ver condiciones</strong> </li>
-                            
+                          <li><strong>Aceite de alta calidad</strong></li>
+                          <li><strong>Ver condiciones</strong></li>
                       </ul>
-                      <a href="#" class="button button-ps">MAS INFORMACIÓN</a>
+                      <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; padding: 10px;">
+                          <a href="tel:+34673624732" class="cta-button cta-phone" style="flex: 1; min-width: 120px;">📞 LLAMAR</a>
+                          <a href="https://wa.me/34673624732?text=Hola,%20quiero%20información%20sobre%20el%20cambio%20de%20aceite%20y%20filtro%20por%2085€" target="_blank" class="cta-button cta-whatsapp" style="flex: 1; min-width: 120px;">💬 WhatsApp</a>
+                      </div>
                     </div>
                   <div class="span4 price-column">
                     <h3>PASTILLAS (2 ruedas)</h3>
                       <ul class="list">
                           <li class="price">90€</li>
-                          <li><strong></strong> No incluye motor </li>
-                          <li><strong>Preguntar coches aplicacles</strong></li>
-                            
+                          <li><strong>No incluye discos</strong></li>
+                          <li><strong>Preguntar coches aplicables</strong></li>
+                          <li><strong>Mano de obra incluida</strong></li>
                       </ul>
-                      <a href="#" class="button button-ps">MAS INFORMACIÓN</a>
+                      <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; padding: 10px;">
+                          <a href="tel:+34673624732" class="cta-button cta-phone" style="flex: 1; min-width: 120px;">📞 LLAMAR</a>
+                          <a href="https://wa.me/34673624732?text=Hola,%20quiero%20información%20sobre%20el%20cambio%20de%20pastillas%20de%20freno" target="_blank" class="cta-button cta-whatsapp" style="flex: 1; min-width: 120px;">💬 WhatsApp</a>
+                      </div>
                     </div>
                 </div>
 <div class="centered">
@@ -277,8 +548,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="section secondary-section">
             <div class="triangle"></div>
             <div class="container centered">
-                <p class="large-text">¿Eres una empresa? Descargate nuestros presupuestos para el mantenimiento de flotas de coches.</p>
-                <a href="#" class="button">DESCARGAR PDF</a>
+                <p class="large-text">¿Eres una empresa? Contáctanos para presupuestos personalizados de mantenimiento de flotas.</p>
+                <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 25px;">
+                    <a href="tel:+34673624732" class="cta-button cta-phone" style="font-size: 18px;">📞 Llamar Ahora</a>
+                    <a href="https://wa.me/34673624732?text=Hola,%20soy%20empresa%20y%20necesito%20presupuesto%20para%20mantenimiento%20de%20flota" target="_blank" class="cta-button cta-whatsapp" style="font-size: 18px;">💬 WhatsApp</a>
+                </div>
             </div>
         </div>
         <!-- Client section start -->
@@ -294,9 +568,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="row">
                         <div class="span4">
                             <div class="testimonial">
-                              <h4>Como medir los niveles de mi coche?</h4>
+                              <h4>¿Por qué es importante el cambio de aceite?</h4>
 								<img src="images/niveles.png">
-                              <p>Antes de proceder a revisar el aceite, recuerda poner el coche en posición horizontal y con el motor parado. Es muy importante que el motor esté en frío, ya que si está caliente...</p>
+                              <p>Descubre cómo un simple cambio de aceite puede ahorrarte miles de euros en reparaciones. El aceite protege tu motor, pero con el tiempo pierde sus propiedades...</p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <img src="images/Client1.png" class="centered" alt="client 1">
@@ -304,15 +578,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <small>Administrador</small>
                                     </strong>
                                 </div>
+                                <a href="blog-importancia-cambio-aceite.html" class="button" style="margin-top: 15px; display: inline-block;">Leer Más</a>
                             </div>
                         </div>
                         <div class="span4">
                             <div class="testimonial">
-								<h4>Como saber que llantas, bateria comprar?</h4>
+								<h4>¿Cada cuánto realizar los mantenimientos?</h4>
 								<img src="images/ruedas.png">
-                                <p>Después de encontrar la serie de números en el costado de tu llanta, utiliza el diagrama anterior y la siguiente lista para buscar el significado de cada número.
-
-El código métrico, o tipo de llanta..</p>
+                                <p>Calendario completo de mantenimiento: aceite, distribución, pastillas, filtros y más. Aprende cuándo debes realizar cada servicio para mantener tu coche en perfecto estado...</p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <img src="images/Client2.png" class="centered" alt="client 2">
@@ -320,11 +593,12 @@ El código métrico, o tipo de llanta..</p>
                                         <small>Administrador</small>
                                     </strong>
                                 </div>
+                                <a href="blog-cada-cuanto-mantenimiento.html" class="button" style="margin-top: 15px; display: inline-block;">Leer Más</a>
                             </div>
                         </div>
                         <div class="span4">
                             <div class="testimonial">
-								<h4>Color de humo y tipos de averias...</h4>
+								<h4>Color de humo y tipos de averías</h4>
 								<img src="images/humos.png">
                                 <p>Si el humo que sale por el tubo de escape es de color azul, esto suele significar que el motor está quemando aceite en exceso. Se suele producir al encontrarse desgastados los sellos de la guía de las válvulas...</p>
                                 <div class="whopic">
@@ -431,7 +705,11 @@ El código métrico, o tipo de llanta..</p>
                 <div class="container">
                     <div class="title">
                       <h1>CONTACTO</h1>
-                      <p>Si no quieres esperar a que leamos el formulario, puedes contactar directamente con nosotros por WHATSAPP o telefono .</p>
+                      <p>¿Necesitas atención inmediata? Contáctanos directamente por WhatsApp o teléfono.</p>
+                      <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 25px;">
+                          <a href="tel:+34673624732" class="cta-button cta-phone" style="font-size: 18px;">📞 +34 673 624 732</a>
+                          <a href="https://wa.me/34673624732?text=Hola,%20necesito%20información" target="_blank" class="cta-button cta-whatsapp" style="font-size: 18px;">💬 WhatsApp</a>
+                      </div>
                     </div>
                 </div>
                 <div>
@@ -521,7 +799,6 @@ El código métrico, o tipo de llanta..</p>
         <!-- Contact section edn -->
         <!-- Footer section start -->
         <div class="footer">
-            <p>&copy; WEBSITE diseñada por <a href="www.sweezam.es">Jose Antonio</a></p>
         </div>
         <!-- Footer section end -->
         <!-- ScrollUp button start -->
@@ -531,6 +808,26 @@ El código métrico, o tipo de llanta..</p>
             </a>
         </div>
         <!-- ScrollUp button end -->
+        
+        <!-- Sticky CTA Buttons -->
+        <div class="sticky-cta-container" id="sticky-cta" style="display: none;">
+            <div style="position: relative;">
+                <button class="close-sticky" onclick="document.getElementById('sticky-cta').style.display='none'">×</button>
+                <a href="tel:+34673624732" class="sticky-cta-button sticky-phone">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+                    </svg>
+                    <span>Llamar</span>
+                </a>
+            </div>
+            <a href="https://wa.me/34673624732?text=Hola,%20necesito%20información%20sobre%20sus%20servicios" target="_blank" class="sticky-cta-button sticky-whatsapp">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                <span>WhatsApp</span>
+            </a>
+        </div>
+        
         <!-- Include javascript -->
         <script src="js/jquery.js"></script>
         <script type="text/javascript" src="js/jquery.mixitup.js"></script>
@@ -547,5 +844,28 @@ El código métrico, o tipo de llanta..</p>
             <script src="js/respond.min.js"></script>
         <![endif]-->
         <script type="text/javascript" src="js/app.js"></script>
+        
+        <script>
+            // Mostrar botones sticky después de scroll
+            jQuery(document).ready(function($) {
+                var stickyShown = false;
+                
+                $(window).on('scroll', function() {
+                    var scrollPosition = $(window).scrollTop();
+                    var windowHeight = $(window).height();
+                    
+                    // Mostrar después de scrollear 1.5 pantallas
+                    if (scrollPosition > windowHeight * 1.5 && !stickyShown) {
+                        $('#sticky-cta').fadeIn(400);
+                        stickyShown = true;
+                    }
+                });
+                
+                // Prevenir que los botones interfieran con el scroll
+                $('.sticky-cta-button').on('click', function(e) {
+                    // El comportamiento por defecto de los enlaces funciona correctamente
+                });
+            });
+        </script>
     </body>
 </html>
